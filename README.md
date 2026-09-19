@@ -4,6 +4,10 @@ Native, fluid Dynamic Island and floating overlay notifications for **Expo** and
 
 Designed to mimic iOS Dynamic Island interactions with spring physics, haptic feedback, avatar image support, SF Symbols, custom accent colors, and swipe-to-dismiss gestures.
 
+<p align="center">
+  <img src="./assets/demo.gif" width="340" alt="expo-dynamic-notifications demo" />
+</p>
+
 ---
 
 ## Features
