@@ -1,14 +1,56 @@
-# OSX
-#
+# macOS / System
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# VSCode
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.p8
+*.p12
+*.keystore
+*.mobileprovision
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun.lockb
+
+# TypeScript & Build outputs
+*.tsbuildinfo
+build/
+dist/
+android/build/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# IDE & Editor
+.idea/
 .vscode/
+*.swp
+*.swo
+*~
+.fleet/
+.cursor/
+.windsurf/
 jsconfig.json
 
-# Xcode
-#
-build/
+# Xcode & iOS
+DerivedData/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -17,41 +59,39 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+xcuserdata/
 *.xccheckout
 *.moved-aside
-DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+*.xcworkspace
+!default.xcworkspace
+Pods/
+example/ios/Pods/
 
-# Android/IJ
-#
+# Android & Gradle
+.gradle/
+.cxx/
+local.properties
+*.iml
 .classpath
-.cxx
-.gradle
-.idea
 .project
 .settings
-local.properties
-android.iml
-android/app/libs
+android/app/libs/
 android/keystores/debug.keystore
+captures/
+.externalNativeBuild/
 
-# Cocoapods
-#
-example/ios/Pods
+# Expo
+.expo/
+web-build/
+expo-env.d.ts
 
 # Ruby
 example/vendor/
+vendor/
+.bundle/
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Expo
-.expo/*
+# npm package tarball
+*.tgz

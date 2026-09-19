@@ -1,6 +1,6 @@
-import { requireNativeView } from 'expo';
 import { type PrimitiveBaseProps } from '@expo/ui/jetpack-compose';
 import { createViewModifierEventListener } from '@expo/ui/jetpack-compose/modifiers';
+import { requireNativeView } from 'expo';
 import * as React from 'react';
 
 export interface ExpoDynamicNotificationsComposeViewProps extends PrimitiveBaseProps {
@@ -8,10 +8,11 @@ export interface ExpoDynamicNotificationsComposeViewProps extends PrimitiveBaseP
   children?: React.ReactNode;
 }
 
-const NativeExpoDynamicNotificationsComposeView = requireNativeView<ExpoDynamicNotificationsComposeViewProps>(
-  'ExpoDynamicNotifications',
-  'ExpoDynamicNotificationsComposeView'
-);
+const NativeExpoDynamicNotificationsComposeView =
+  requireNativeView<ExpoDynamicNotificationsComposeViewProps>(
+    'ExpoDynamicNotifications',
+    'ExpoDynamicNotificationsComposeView'
+  );
 
 export default function ExpoDynamicNotificationsComposeView({
   modifiers,

@@ -19,13 +19,13 @@
     "expo-dynamic-notifications",
     "ExpoDynamicNotifications"
   ],
-  "repository": "https://github.com/emerson-vieira/expo-dynamic-notifications",
+  "repository": "https://github.com/mensonones/expo-dynamic-notifications",
   "bugs": {
-    "url": "https://github.com/emerson-vieira/expo-dynamic-notifications/issues"
+    "url": "https://github.com/mensonones/expo-dynamic-notifications/issues"
   },
-  "author": "Emerson Vieira <emerson@example.com> (https://github.com/mensonones)",
+  "author": "Emerson Vieira <mensones.1@gmail.com> (https://github.com/mensonones)",
   "license": "MIT",
-  "homepage": "https://github.com/emerson-vieira/expo-dynamic-notifications#readme",
+  "homepage": "https://github.com/mensonones/expo-dynamic-notifications#readme",
   "dependencies": {},
   "devDependencies": {
     "@expo/ui": "^56.0.10",

@@ -1,6 +1,6 @@
-import { requireNativeView } from 'expo';
 import { type CommonViewModifierProps } from '@expo/ui/swift-ui';
 import { createViewModifierEventListener } from '@expo/ui/swift-ui/modifiers';
+import { requireNativeView } from 'expo';
 import * as React from 'react';
 
 export interface ExpoDynamicNotificationsSwiftUIViewProps extends CommonViewModifierProps {
@@ -8,10 +8,11 @@ export interface ExpoDynamicNotificationsSwiftUIViewProps extends CommonViewModi
   children?: React.ReactNode;
 }
 
-const NativeExpoDynamicNotificationsSwiftUIView = requireNativeView<ExpoDynamicNotificationsSwiftUIViewProps>(
-  'ExpoDynamicNotifications',
-  'ExpoDynamicNotificationsSwiftUIView'
-);
+const NativeExpoDynamicNotificationsSwiftUIView =
+  requireNativeView<ExpoDynamicNotificationsSwiftUIViewProps>(
+    'ExpoDynamicNotifications',
+    'ExpoDynamicNotificationsSwiftUIView'
+  );
 
 export default function ExpoDynamicNotificationsSwiftUIView({
   modifiers,
